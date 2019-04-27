@@ -69,12 +69,12 @@
                     <img src="img/logo.png" alt="Logo"  height="50"  >
                 </a>
             </div>
-            <div data-custom-icon-url="img/boxit.svg" data-layout="SMALL_ICON_COUNTER"
-            data-fixed-position="BOTTOM_RIGHT"
-            class="ec-cart-widget"></div>
-            <div><script data-cfasync="false"
-            type="text/javascript"
-            src="https://app.ecwid.com/script.js?16735015&data_platform=code&data_date=2019-04-24"
+            <div data-show-buy-animation="TRUE" data-fixed="TRUE"
+            data-fixed-position="BOTTOM_LEFT"
+            data-horizontal-indent="15"
+            data-vertical-indent="15" data-show-empty-cart="FALSE" data-custom-icon-url="img/boxit.svg" data-fixed-shape="RECT" data-layout="BIG_ICON_DETAILS_SUBTOTAL"  class="ec-cart-widget"></div>
+            <div><script data-cfasync="True" type="text/javascript"
+            src="https://app.ecwid.com/script.js?16735015&data_platform=code"
             charset="utf-8"></script><script>Ecwid.init();</script></div>
 
             <!-- Menu Hamburger (Default) -->
@@ -87,11 +87,11 @@
                     <div class="navigation">
                       <div class="navigation">
                           <span class="pe-7s-close close-menu" id="close-button"></span>
-                          <div id="my-search-16735015"></div>
+                          <!-- <div id="my-search-16735015"></div>
   <div>
   <script data-cfasync="false" type="text/javascript" src="https://app.ecwid.com/script.js?16735015&data_platform=code&data_date=2019-04-24" charset="utf-8"></script>
   <script type="text/javascript"> xSearch("id=my-search-16735015"); </script>
-  </div>
+  </div> -->
 
                       </div>
                     </div>
@@ -267,11 +267,22 @@
     <script src="js/main.js"></script>
     <script src="js/ajax.js"></script>
     <script src="js/map-costum.js"></script>
-    <script>
+    <!-- <script>
 window.fcWidget.init({
 token: "bddb693a-0c84-4acf-a21e-804780486372",
 host: "https://wchat.freshchat.com"
 });
+</script> -->
+<script type="text/javascript">
+var Tawk_API=Tawk_API||{}, Tawk_LoadStart=new Date();
+(function(){
+var s1=document.createElement("script"),s0=document.getElementsByTagName("script")[0];
+s1.async=true;
+s1.src='https://embed.tawk.to/5cc1b474d6e05b735b444367/default';
+s1.charset='UTF-8';
+s1.setAttribute('crossorigin','*');
+s0.parentNode.insertBefore(s1,s0);
+})();
 </script>
 
 </body>

@@ -7,6 +7,9 @@
     padding-top: 25px;
     text-align: center;
 }
+.is-centered {
+    justify-content: center;
+}
 .field.has-addons{
     justify-content: center;
 }

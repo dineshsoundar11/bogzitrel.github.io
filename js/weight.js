@@ -130,37 +130,6 @@ function calculate_shipping(weight, shipping_time) {
         shipping_cost1 = (weightOz * 0.53).toFixed(2);
     }
 
-  if (weightOz <= 500) {
-        shipping_cost1 = (1499.00).toFixed(2);
-    } else if (weightOz >= 501 && weightOz <= 1000) {
-        shipping_cost1 = (2100.00).toFixed(2);
-      } else if (weightOz >= 1001 && weightOz <= 1500) {
-        shipping_cost1 = (2350.00).toFixed(2);
-        } else if (weightOz >= 1501 && weightOz <= 2000) {
-        shipping_cost1 = (2675.00).toFixed(2);
-        } else if (weightOz >= 2001 && weightOz <= 2500) {
-        shipping_cost1 = (2900.00).toFixed(2);
-          } else if (weightOz >= 2501 && weightOz <= 3000) {
-        shipping_cost1 = (3200.00).toFixed(2);
-            } else if (weightOz >= 3001 && weightOz <= 3500) {
-        shipping_cost1 = (3500.00).toFixed(2);
-              } else if (weightOz >= 3501 && weightOz <= 4000) {
-        shipping_cost1 = (3750.00).toFixed(2);
-                } else if (weightOz >= 4001 && weightOz <= 4999) {
-        shipping_cost1 = (4000.00).toFixed(2);
-    } else if (weightOz >= 5000 && weightOz <= 7999) {
-      shipping_cost1 = (weightOz * 7.198).toFixed(2);
-      } else if (weightOz >= 8000 && weightOz <= 9999) {
-      shipping_cost1 = (weightOz * 6.726).toFixed(2);
-        } else if (weightOz >= 10000 && weightOz <= 14999) {
-      shipping_cost1 = (weightOz * 6.372).toFixed(2);
-                } else if (weightOz >= 15000 && weightOz <= 19999) {
-      shipping_cost1 = (weightOz * 5.959).toFixed(2);
-                  } else if (weightOz >= 20000 && weightOz <= 24999) {
-      shipping_cost1 = (weightOz * 5.782).toFixed(2);
-    } else if (weightOz >= 25000) {
-        shipping_cost1 = (weightOz * 5.31).toFixed(2);
-    }
 
 
   if (weightOz <= 500) {

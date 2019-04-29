@@ -252,7 +252,7 @@ function calculate_shipping(weight, shipping_time) {
 function calculateData() {
     $('#totalOz').text(weightOz);
      $('#totalKg').text(weightKg);
-    $('#totalLbs').text(weightOz * 2.20462);
+    $('#totalLbs').text((weightOz * 2.20462).toFixed(2));
 
     $('#TotalCost').text("Rs." + shipping_cost.toFixed(2));
 }
